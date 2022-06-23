@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+    <EditText
+        android:id="@+id/et_rname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/editbox"
+        />
+    <Spinner
+        android:id="@+id/sp_defaultdata"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_rname"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/editbox"
+        android:padding="20dp"
+
+        />
+    <Spinner
+        android:id="@+id/sp_custom"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_rname"
+        android:layout_toRightOf="@+id/sp_defaultdata"
+        android:background="@drawable/editbox"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/planets_array"
+        />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_below="@+id/sp_custom"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/sp_custom"
+        />
+
+
+
+</RelativeLayout>
