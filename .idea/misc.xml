@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/edit-textborder.xml" value="0.129" />
         <entry key="app/src/main/res/drawable/editbox.xml" value="0.129" />
         <entry key="app/src/main/res/drawable/edittextborder.xml" value="0.129" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.28541666666666665" />
       </map>
